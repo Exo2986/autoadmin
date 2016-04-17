@@ -1,0 +1,26 @@
+-- ANTISPAM CONFIGURATION --
+enabled = true
+spamperiod = 5
+amounttomute = 4
+mutetime = 4
+-- SPLIT CFG --
+-- ANTIGHOST CONFIGURATION --
+enabled = true
+periodbeforewarn = 15 -- if value is 0 or below, then it will not give any warning and will happen instantly
+rankstoinformofwarn = { -- Any rank in this list also has access to !antighost_stop
+"superadmin",
+"admin",
+"operator",
+}
+blacklist = {
+"defib",
+"kos",
+"is a t",
+"revive",
+}
+-- SPLIT CFG --
+-- AUTOCENSOR CONFIGURATION --
+enabled = true
+-- SPLIT CFG --
+-- AUTOCENSOR BLACKLIST --
+llama;5
